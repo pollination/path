@@ -1,2 +1,3 @@
 # path
-A Pollination plugin to work with files and folders A.K.A. artifacts.
+
+A Pollination plugin with utilities for files and folders (aka. artifacts).
