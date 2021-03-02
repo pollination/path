@@ -20,7 +20,7 @@ setuptools.setup(
     setup_requires=['setuptools_scm'],
     url='https://github.com/pollination/pollination-path',     # will be translated to home
     project_urls={
-        'icon': 'https://raw.githubusercontent.com/ladybug-tools/artwork/master/icons_bugs/grasshopper_tabs/openfie.png',
+        'icon': 'https://github.com/ladybug-tools/artwork/raw/master/icons_components/ladybug/png/opendir.png',
         'docker': 'https://hub.docker.com/r/ladybugtools/path'
     },
     description='File utility plugin for Pollination.',                # will be used as package description
