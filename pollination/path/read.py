@@ -34,3 +34,20 @@ class ReadJSONList(Function):
     data = Outputs.list(
         description='The content of JSON file as a list.', path='input_path'
     )
+
+
+@dataclass
+class ReadInt(Function):
+    """Read content of a text file as an integer."""
+
+    src = Inputs.path(
+        description='Path to a input text file.', path='input_path'
+    )
+
+    @command
+    def list_dir(self):
+        return 'echo parsing text information to an integer...'
+
+    data = Outputs.int(
+        description='The content of text file as an integer.', path='input_path'
+    )
