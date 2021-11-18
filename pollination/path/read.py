@@ -45,7 +45,7 @@ class ReadInt(Function):
     )
 
     @command
-    def list_dir(self):
+    def read_integer(self):
         return 'echo parsing text information to an integer...'
 
     data = Outputs.int(
