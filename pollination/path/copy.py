@@ -40,3 +40,5 @@ class CopyMultiple(Function):
     dst_4 = Outputs.path(description='Output 4 file or folder.', path='input_path')
 
     dst_5 = Outputs.path(description='Output 5 file or folder.', path='input_path')
+
+    dst_6 = Outputs.path(description='Output 6 file or folder.', path='input_path')
